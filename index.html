@@ -1,45 +1,55 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" />
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+
     <title>Sitio Web Personal de Ricardo Ramírez Jiménez</title>
+
 </head>
-<body>
-    <header>
-        <!-- Barra de navegación -->
-        <nav id="navbar">
-            <div class="container">
-                <h1><a href="#">Mi Sitio</a></h1>
-                <ul>
-                    <li><a href="index.html" >Inicio</a></li>
+
+<body class="body">
+
+    <header> <a href="index.html"> <img src="images/logo.jpg" alt="Logo" width="50"></a>
+
+        <div class="container d-flex justify-between items-center margin-auto flex-direction">
+            <nav class="menu">
+                <h2 class="roboto-black">Sitio Web Personal de Ricardo Ramírez Jiménez</h2>
+                <ul class="roboto-regular" id="links">
+                    <li><a href="index.html">Inicio</a></li>
                     <li><a href="about-me.html">Acerca de mí</a></li>
                     <li><a href="contact.html">Contacto</a></li>
                 </ul>
-            </div>
-        </nav>
-        <!-- Área de presentación -->
-        <div id="showcase">
-            <div class="container">
-                <div class="showcase-content">
-                    <h2>Mi Espacio Personal</h2>
-                    <p class="lead">
-                        <strong>¡Bienvenido a mi sitio web! Aquí compartiré mis pensamientos, proyectos y experiencias.</strong>
-                    </p>
-                </div>
-            </div>
+            </nav>
         </div>
-    </header>
-    <article>
-        <img src="https://i.ibb.co/6RY1gfX/ricardo.jpg" alt="Ricardo Ramírez Jiménez" width="250" />
-        <p>Hola! Mi nombre es Ricardo Ramírez Jiménez y este es mi sitio web personal!</p>
-        <p>Tengo 34 años, soy administrador de empresas de la Universidad Militar y actualmente estoy estudiando Programación Web en Nodo EAFIT!.</p>
-        <p>Actualmente estoy tomando el Modulo Frontend, para luego hacer el Modulo Backend y finalmente el Modulo Cloud Native.</p>
-        <p>Por último pienso hacer la Maestría en Programación Web en la Universidad Oberta de Cataluña</p>
 
-    </article>
+    </header>
+
+    <h1 class="roboto-black d-flex justify-between items-center margin-auto flex-direction">Bienvenidos a mi Página Web Personal!!</h1>
+
+    <section class="container d-flex justify-between items-center margin-auto flex-direction">
+        <img class="imagen" src="/images/ricardo.jpg" alt="Ricardo Ramírez Jiménez" width="250">
+
+        <p class="roboto-regular">Hola! Mi nombre es Ricardo Ramírez Jiménez y este es mi sitio web
+            personal! Tengo 34 años, soy administrador de empresas de la Universidad Militar Nueva Granada de Bogotá y
+            actualmente estoy estudiando Programación Web en Nodo EAFIT. En en este momento estoy cursando el Modulo
+            Frontend, para luego hacer el Modulo Backend y finalmente el Modulo Cloud Native. Por último pienso hacer la Maestría en Programación Web
+            en la Universidad Oberta de
+            Cataluña</p>
+
+        <p class="roboto-regular">Te invito a visitar la sección <a href="about-me.html">Acerca de mí</a>, donde
+            encontrarás aún más información sobre mí.</p>
+
+    </section>
+
     <footer>
-        <p>Ricardo Ramírez Jiménez &copy; 2024</p>
+        <p id="copy">Ricardo Ramírez Jiménez © 2024</p>
+    </footer>
+
 </body>
+
 </html>
