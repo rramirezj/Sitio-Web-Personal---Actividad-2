@@ -20,7 +20,7 @@
 
 header {
     color: #fff;
-    background-color: #1d2d44;
+    background-color: #1B065E;
     box-shadow: 0px 0px 10px;
     padding: 20px;
     margin-bottom: 20px;
@@ -63,24 +63,20 @@ ul {
 }
 
 #audio {
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-bottom: 20px;
+    margin: 20px 20px 20px;
 }	
 
 .video {
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-bottom: 20px;
+    margin: 20px 0px 20px 20px;
 }
 
 #mapa {
-    margin-bottom: 20px;
+    margin: 0px 0px 20px 20px;
 }
 
 footer {
     color: #fff;
-    background-color: #1d2d44;
+    background-color: #1B065E;
     display: flex;
     justify-content: center;
     font-family: "Roboto", sans-serif;
