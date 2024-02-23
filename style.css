@@ -5,6 +5,7 @@
     font-weight: 900;
     font-style: normal;
     margin-left: 20px;
+    text-align: justify;
 }
 
 .roboto-regular {
@@ -14,6 +15,7 @@
     font-style: normal;
     margin-left: 20px;
     margin-top: 20px;
+    text-align: justify;
 }
 
 header {
@@ -73,12 +75,7 @@ ul {
 }
 
 #mapa {
-    margin-left: 20px;
     margin-bottom: 20px;
-}
-
-#copy {
-    margin-top: 20px;
 }
 
 footer {
@@ -86,8 +83,7 @@ footer {
     background-color: #1d2d44;
     display: flex;
     justify-content: space-evenly;
-    box-shadow: 0px 0px 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Roboto", sans-serif;
     width: 100%;
     margin-top: auto;
     align-self: flex-end;
@@ -121,7 +117,7 @@ body {
 }
 
 .m-left {
-    margin-left: 50px;
+    margin-left: 330px;
 }
 
 .flex-direction {
