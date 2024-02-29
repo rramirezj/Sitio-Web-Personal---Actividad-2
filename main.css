@@ -114,6 +114,8 @@ p {
 
 .menu ul li a:hover {
     background-color: #3F1C60;
+    transform: scale(1.2);
+    transition: all 0.3s;
 }
 
 /* Main content */
@@ -152,4 +154,6 @@ footer {
         padding-right: 16px;
         width: auto;
     }
+    
 }
+
