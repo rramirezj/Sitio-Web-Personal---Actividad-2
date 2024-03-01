@@ -101,6 +101,7 @@ p {
 .menu ul {
     display: flex;
     gap: 16px;
+    margin-left: 70px;
 }
 
 .menu ul li a {
